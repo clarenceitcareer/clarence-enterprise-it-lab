@@ -1,11 +1,9 @@
-\# Clarence Enterprise IT Lab — Operating Standard (Day 1 Baseline)
-
+Clarence Enterprise IT Lab — Operating Standard (Day 1 Baseline)
 
 
 \## Mission
 
 This repository is an enterprise-grade, audit-ready lab portfolio designed to prove Level 3–4 IT capability.
-
 
 
 \## Rules of Engagement (Non-Negotiable)
@@ -41,11 +39,9 @@ This repository is an enterprise-grade, audit-ready lab portfolio designed to pr
 &nbsp; - A short “What this proves” statement
 
 
-
 \## Safety / Ethics
 
 This lab is for defensive, professional learning. No attack playbooks.
-
 
 
 \## Daily Handoff
