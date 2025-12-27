@@ -1,0 +1,22 @@
+! VLAN definitions
+vlan 10
+ name USERS
+vlan 20
+ name ADMINS
+
+! Access port assignments
+interface FastEthernet0/1
+ description PC1-USERS
+ switchport mode access
+ switchport access vlan 10
+ no shutdown
+
+interface FastEthernet0/2
+ description PC2-ADMINS
+ switchport mode access
+ switchport access vlan 20
+ no shutdown
+
+! Disable unused access ports
+interface range FastEthernet0/3-24
+ shutdown
